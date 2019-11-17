@@ -3,179 +3,145 @@
     margin: 0;
     padding: 0;
 }
-
-/* controls the color of the website background */
+img {
+  width: 240px;
+  height: 240px;
+}
 body {
-  background:#ECECEC;
   display: flex;
+  justify-content: center;
+  margin-top: 80px;
+  max-height: 1447px;
 }
-
-/* controls how my name is displayed */
+#personal {
+  max-width: 280px;
+  margin-right: 80px;
+}
+#experience {
+  max-width: 600px;
+}
 h1 {
-  background-image: linear-gradient(to left,#2E2449,#25366A);
-  padding: 8px 0;
-  text-align: center;
-  color: white;
-  margin-bottom: 5px !important;
-  font-family: 'Assistant', sans-serif;
+  font-family: Lora;
+  font-size: 36px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #011627;
+  margin-bottom: 8px;
 }
-/* controls how the category headers are displayed */
 h2 {
-  text-align: center;
-  background-image: linear-gradient(to left,#2E2449,#25366A);
-  padding: 8px 0;
-  color: white;
-  margin-bottom: 5px !important;
-  font-family: 'Assistant', sans-serif;
+  font-family: Lora;
+  font-size: 24px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  color: #011627;
+  margin-bottom: 12px;
+  margin-top: 40px;
 }
-
-/* create the columns for all the main lists */
-.column {
-  width: 24%;
-  margin: auto;
-  margin-top: 0 !important;
+h3 {
+  font-family: Lora;
+  font-size: 24px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #011627;
+  margin-top: 64px;
+  margin-bottom: 12px;
 }
-
-/* creates the rows for the columns of the list items */
-.list_row {
+li {
+  font-family: Merriweather;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  color: #011627;
+}
+ul {
+  list-style: none;
+}
+.experienceTitle {
+  font-family: Merriweather;
+  font-size: 16px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  color: #2972d8;
+}
+.timeline {
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  color: #5c6266;
+}
+.description {
+  font-family: Merriweather;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: italic;
+  line-height: 1.5;
+  letter-spacing: normal;
+  color: #011627;
+  margin-bottom: 8px;
+}
+.exAndTime {
+  max-width: 600px;
   display: flex;
-  margin-bottom: 10px;
-  background: white;
+  justify-content: space-between;
+  margin-bottom: 4px;
 }
-
-/* controls all the p tags in the inner list */
-#inner_list p {
-  font-size: 18px;
-  font-family: 'EB Garamond', serif;
+.bio {
+  font-family: Merriweather;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  color: #5c6266;
 }
-
-/* controls the dimensions of the unorder lists */
-#inner_list {
-  max-height: 2000px;
-  overflow: auto;
+.contact {
+  font-family: Merriweather;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  color: #2972d8;
+  text-decoration: none;
 }
-
-/* controls the font for the objective */
-#bio > p {
-  font-size: 22px;
-  font-family: 'EB Garamond', serif;
-  text-align: center;
+label {
+  font-family: Merriweather;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #5c6266;
 }
-
-#bio {
-  background-color: white;
-}
-
-.column_item {
-  width: 100%;
-}
-
-/* in projects changes the size of the link font */
-a {
-  font-size: 18px;
-  color: black;
-}
-
-#achieve_logo {
-  width: 90%;
-  height: 90%;
-}
-
-#occuspace_logo {
-  width: 90%;
-  height: 90%;
-}
-#john_stewart_logo {
-  width: 85%;
-  height: 85%;
-  padding: 6% 0;
-}
-
-#appsync_logo {
-  padding-top: 8%;
-  width: 90%;
-  height: 83%;
-}
-
-#contact_info {
-  display: flex;
-  background-color: white;
-  justify-content: space-evenly;
-}
-
-.icon {
-    width: 50px !important;
-    height: 50px !important;
-}
-
-#school {
-  background: white;
-  font-size: 22px;
-  margin-bottom: 5px;
-  line-height: 45px;
-}
-
-#courses {
-  background: white;
-  font-size: 22px;
-  line-height: 35px;
-}
-
-#courses_list {
-  margin-left: 30px;
-}
-
-/* makes the website responsive to mobile devices */
-@media screen and (max-width: 1000px) {
-    /* For mobile phones: */
-    body {
-        display: block;
-    }
-    [class*="col"] {
-        width: 100%;
-    }
-    #inner_list p {
-      font-size: 22px;
-    }
-    .list_row {
-      display: block;
-    }
-    .column_item {
-      text-align: center;
-    }
-    #achieve_logo {
-      width: 400px !important;
-      height: 400px !important;
-    }
-    #relevant {
-      text-align: center;
-    }
-    #school {
-      text-align: center;
-    }
-    #courses {
-      text-align: center;
-    }
-    ul {
-      list-style-type:none;
-    }
-    .icon {
-      width: 150px !important;
-      height: 150px !important;
-    }
-    #occuspace_logo {
-      width: 400px !important;
-      height: 400px !important;
-    }
-    #john_stewart_logo {
-      width: 350px !important;
-      height: 350px !important;
-      padding: 6% 0 !important;
-    }
-  
-    #appsync_logo {
-      padding-top: 8% !important;
-      width: 400px !important;
-      height: 320px !important;
-    }
+#skills {
+  font-family: Merriweather;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.71;
+  letter-spacing: normal;
+  color: #5c6266;
 }
