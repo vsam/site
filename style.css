@@ -125,6 +125,9 @@ ul {
   color: #2972d8;
   text-decoration: none;
 }
+#resume {
+  margin-top: 40px;
+}
 label {
   font-family: Merriweather;
   font-size: 16px;
@@ -144,6 +147,7 @@ label {
   line-height: 1.71;
   letter-spacing: normal;
   color: #5c6266;
+  margin-bottom: 40px;
 }
 
 @media screen and (max-width: 1000px) {
