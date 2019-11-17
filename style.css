@@ -145,3 +145,34 @@ label {
   letter-spacing: normal;
   color: #5c6266;
 }
+
+@media screen and (max-width: 1000px) {
+  /* For mobile phones: */
+  body {
+    display: block;
+    max-height: 100%;
+  }
+  
+  #personal {
+    max-width:100%;
+    margin-right: 0;
+  }
+  #experience {
+    max-width: 100%;
+  }
+  .exAndTime {
+    max-width: 100%;
+  }
+  .experienceTitle {
+    font-size: 46px;
+  }
+  .timeline {
+    font-size: 46px;
+  }
+  img {
+    width: 100%;
+    height: auto;
+    margin: auto !important;
+  }
+  
+}
