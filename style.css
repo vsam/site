@@ -10,7 +10,7 @@ img {
 body {
   display: flex;
   justify-content: center;
-  margin-top: 80px;
+  margin: 80px 0;
   max-height: 1447px;
 }
 #personal {
@@ -77,6 +77,7 @@ ul {
   line-height: 1.5;
   letter-spacing: normal;
   color: #2972d8;
+  text-decoration: none;
 }
 .timeline {
   font-size: 16px;
@@ -178,5 +179,4 @@ label {
     height: auto;
     margin: auto !important;
   }
-  
 }
