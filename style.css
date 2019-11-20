@@ -156,8 +156,10 @@ label {
   body {
     display: block;
     max-height: 100%;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
   }
-  
   #personal {
     max-width:100%;
     margin-right: 0;
@@ -175,8 +177,10 @@ label {
     font-size: 46px;
   }
   img {
-    width: 100%;
-    height: auto;
-    margin: auto !important;
+    width: 500px;
+    height: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
