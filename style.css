@@ -65,9 +65,6 @@ li {
   letter-spacing: normal;
   color: #011627;
 }
-ul {
-  list-style: none;
-}
 .exAndTime {
   max-width: 600px;
   display: flex;
@@ -157,9 +154,9 @@ label {
   body {
     display: block;
     max-height: 100%;
-    max-width: 90%;
-    margin-left: 5%;
-    margin-right: 5%;
+    max-width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
   }
   #personal {
     max-width:100%;
