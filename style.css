@@ -68,6 +68,12 @@ li {
 ul {
   list-style: none;
 }
+.exAndTime {
+  max-width: 600px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 4px;
+}
 .experienceTitle {
   font-family: Merriweather;
   font-size: 16px;
@@ -87,6 +93,7 @@ ul {
   line-height: 1.5;
   letter-spacing: normal;
   color: #5c6266;
+
 }
 .description {
   font-family: Merriweather;
@@ -98,12 +105,6 @@ ul {
   letter-spacing: normal;
   color: #011627;
   margin-bottom: 8px;
-}
-.exAndTime {
-  max-width: 600px;
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 4px;
 }
 .bio {
   font-family: Merriweather;
@@ -156,7 +157,7 @@ label {
   body {
     display: block;
     max-height: 100%;
-    width: 90%;
+    max-width: 90%;
     margin-left: 5%;
     margin-right: 5%;
   }
@@ -167,20 +168,10 @@ label {
   #experience {
     max-width: 100%;
   }
-  .exAndTime {
-    max-width: 100%;
+  h1 {
+    font-size: 30px;
   }
-  .experienceTitle {
-    font-size: 46px;
-  }
-  .timeline {
-    font-size: 46px;
-  }
-  img {
-    width: 500px;
-    height: 500px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+  #imgcontainer {
+    text-align: center;
   }
 }
